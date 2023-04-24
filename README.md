@@ -51,15 +51,29 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 
 下列所有项目都与Casbin一致，采用开源协议：[Apache 2.0 license](LICENSE)
 
-- [Casbin核心权限库改进（Go + Java）](#casbin核心权限库改进go--java)
-- [Casbin核心权限库改进（Go + .NET）](#casbin核心权限库改进go--net)
-- [Casbin/Casdoor 文档优化](#casbincasdoor-文档优化)
-- [加速 Node-Casbin、Casbin.js 在 Web 和 Node.js 平台上的插件生态建设](#加速-node-casbincasbinjs-在-web-和-nodejs-平台上的插件生态建设)
-- [Casdoor单点登录系统、Casnode社区系统（前端React + JS，后端Go）](#casdoor单点登录系统casnode社区系统前端react--js后端go)
-- [Python/PHP-Casbin 在分布式系统和主流框架下的应用扩展开发（Python/PHP）](#pythonphp-casbin-在分布式系统和主流框架下的应用扩展开发pythonphp)
-- [SwiftCasbin 开发（Swift)或Casdoor单点登录系统大前端支持](#swiftcasbin-开发swift或casdoor单点登录系统大前端支持)
-- [Casdoor协议相关功能支持](#Casdoor协议相关功能支持)
-- [Casdoor 与其他开源软件相关对接支持](#Casdoor与其他开源软件相关对接支持)
+- [开源软件供应链点亮计划-暑期2022](#开源软件供应链点亮计划-暑期2022)
+  - [开源软件供应链点亮计划-暑期2022”是什么？](#开源软件供应链点亮计划-暑期2022是什么)
+  - [活动的组织方有哪些](#活动的组织方有哪些)
+  - [活动的参与方以及角色有哪些](#活动的参与方以及角色有哪些)
+  - [项目的奖金是多少](#项目的奖金是多少)
+- [Casbin开源项目介绍](#casbin开源项目介绍)
+- [可选项目列表](#可选项目列表)
+  - [Casbin核心权限库改进（Go + Java）](#casbin核心权限库改进go--java)
+  - [Casbin核心权限库改进（Go + .NET）](#casbin核心权限库改进go--net)
+  - [Casbin/Casdoor 文档优化](#casbincasdoor-文档优化)
+  - [加速 Node-Casbin、Casbin.js 在 Web 和 Node.js 平台上的插件生态建设](#加速-node-casbincasbinjs-在-web-和-nodejs-平台上的插件生态建设)
+  - [Casdoor单点登录系统管理平面、权限相关功能支持](#casdoor单点登录系统管理平面权限相关功能支持)
+  - [Python/PHP-Casbin 在分布式系统和主流框架下的应用扩展开发（Python/PHP）](#pythonphp-casbin-在分布式系统和主流框架下的应用扩展开发pythonphp)
+  - [增强Casdoor单点登录系统大前端的功能](#增强casdoor单点登录系统大前端的功能)
+  - [Casdoor协议相关功能支持](#casdoor协议相关功能支持)
+  - [Casdoor与其他开源软件相关对接支持](#casdoor与其他开源软件相关对接支持)
+- [候选人要求](#候选人要求)
+  - [工作职责：](#工作职责)
+  - [职位要求：](#职位要求)
+  - [具有以下条件者优先：](#具有以下条件者优先)
+- [投递要求](#投递要求)
+  - [1. 联系社区（即日起至2022年6月4日）](#1-联系社区即日起至2022年6月4日)
+  - [2. 官网投递（2022年5月21日至2022年6月4日）](#2-官网投递2022年5月21日至2022年6月4日)
 
 ### Casbin核心权限库改进（Go + Java）
 1. 项目名称：Casbin（Go + Java）
@@ -81,7 +95,6 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casbin/casbin
    - https://github.com/casbin/jcasbin
 
-
 ### Casbin核心权限库改进（Go + .NET）
 1. 项目名称：Casbin（Go + .NET）
 2. 项目主导师：[汤贤赫 (Sagilio)](https://github.com/sagilio), sagilio (AT) outlook.com
@@ -92,8 +105,8 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 7. 项目产出要求：
    - 增强Casbin语法的表达能力，满足用户多样化的策略制定需求
    - 优化Casbin在大规模规则集上（百万以上）的策略评估性能
-   - 跟踪Casbin-Go最新特性与BUG修复，并同步到Casbin.NET，如重构的RoleManager:[Casbin.NET#250](https://github.com/casbin/Casbin.NET/issues/250)
-   - 完善Casbin.NET的特有生态, 1) 完善现有的aspnetcore中间件：https://github.com/casbin-net/casbin-aspnetcore; 2) 完善Casdoor.SDK的.NET版本: https://github.com/casdoor/casdoor-dotnet-sdk
+   - 跟踪Casbin-Go最新特性与BUG修复，并同步到Casbin.NET
+   - 完善Casbin.NET的特有生态：实现一个类库项目，为桌面APP，如WinUI/Maui/WPF等提供友好地支持 [Casbin-Native](https://github.com/casbin-net/casbin-native)
    - 解决Casbin-Go和Casbin.NET以及相关仓库中的issues：[Casbin-Go](https://github.com/casbin/casbin/issues) & [Casbin.NET](https://github.com/casbin/Casbin.NET/issues)
 8. 项目技术要求：
    - 熟悉Golang或C#语言
@@ -101,6 +114,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 9. 项目成果仓库：
    - https://github.com/casbin/casbin
    - https://github.com/casbin/Casbin.NET
+   - https://github.com/casbin-net/casbin-native
 
 ### Casbin/Casdoor 文档优化
 1. 项目标题：Casbin/Casdoor 文档优化
